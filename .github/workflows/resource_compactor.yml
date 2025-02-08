@@ -1,7 +1,7 @@
-name: Zip repository and put on S3
+name: Zip repository and publish as release
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   zip-n-push:
